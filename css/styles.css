@@ -3,14 +3,14 @@
   font-family: "Angelica";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/angelica.woff2") format("woff2"), url("../fonts/angelica.woff") format("woff"); }
+  src: url("/fonts/angelica.woff2") format("woff2"), url("/fonts/angelica.woff") format("woff"); }
 
 @font-face {
   font-display: swap;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/georgia.woff2") format("woff2"), url("../fonts/georgia.woff") format("woff"); }
+  src: url("/fonts/georgia.woff2") format("woff2"), url("/fonts/georgia.woff") format("woff"); }
 
 /* Colors */
 /* Breakpoints */
