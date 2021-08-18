@@ -1,0 +1,23 @@
+/* Colors */
+$black: #000000;
+$basic-black: #4C473A;
+$basic-white: #FFFFFF;
+$border-decoration: #C09068;
+$background-color: #FEFEE9;
+$hover-map-button: #F3F3F3;
+
+/* Breakpoints */
+$desktop-width: 1919px;
+$laptop-width: 1440px;
+$tablet-width: 1024px;
+$half-tablet-width: 920px;
+$mobile-width: 768px;
+$half-mobile-width: 580px;
+
+/* Fonts */
+@mixin fonts($font-weight: 400, $font-size: 14px, $font-color: $basic-white, $line-height: 30px) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $font-color;
+  line-height: $line-height;
+}
