@@ -85,7 +85,7 @@ exports.sprite = sprite;
 const copy = (done) => {
   return gulp.src(
     [
-      'source/fonts/*.{woff2,woff,ttf}',
+      'source/fonts/*.{woff2,woff}',
       'source/*.ico',
       'source/img/*.{jpg,png,svg}',
     ], {
@@ -96,19 +96,6 @@ const copy = (done) => {
 }
 
 exports.copy = copy;
-
-const vendors = (done) => {
-  return gulp.src(
-    [
-      'source/js/vendors/*.js'
-    ], {
-      base: 'source/js/vendors'
-    })
-    .pipe(gulp.dest('build/js'))
-  done();
-}
-
-exports.vendors = vendors;
 
 const clean = () => {
   return del('build');
