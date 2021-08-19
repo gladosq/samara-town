@@ -268,7 +268,7 @@
     .header::before {
       height: 300px;
       background-size: cover;
-      background-position: -40px -120px; }
+      background-position: 0 -100px; }
     .header::after {
       height: 96%; }
   .header__logo-svg {
@@ -322,6 +322,10 @@
     height: 14px;
     background-size: contain;
     background-repeat: no-repeat; } }
+
+@media (max-width: 580px) {
+  .header::before {
+    background-position: 20% -100px; } }
 
 .map {
   background: url("../img/map-background.png");

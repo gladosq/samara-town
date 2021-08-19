@@ -294,7 +294,7 @@
     &::before {
       height: 300px;
       background-size: cover;
-      background-position: -40px -120px;
+      background-position: 0 -100px;
     }
 
     &::after {
@@ -387,6 +387,15 @@
       height: 14px;
       background-size: contain;
       background-repeat: no-repeat;
+    }
+  }
+}
+
+@media (max-width: $half-mobile-width) {
+  .header {
+
+    &::before {
+      background-position: 20% -100px;
     }
   }
 }
